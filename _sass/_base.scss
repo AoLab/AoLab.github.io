@@ -227,6 +227,16 @@ header {
 	}
 }
 
+.member-box {
+	a {
+		&:hover,
+		&:focus {
+			text-decoration: none;
+			color: darken($theme-primary, 15%);
+		}
+	}
+}
+
 .portfolio-box {
 	position: relative;
 	display: block;

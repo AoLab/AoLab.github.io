@@ -1,4 +1,15 @@
+- name: "Prof. Bahador Bakhshi"
+  bio: "Assistant Professor"
+  avatar: "http://ceit.aut.ac.ir/~bakhshis/me-12.jpg"
+  url: "http://ceit.aut.ac.ir/~bakhshis/"
+  active: true
 - name: "Parham Alvani"
-  bio: "Simple C Developer ..."
+  bio: "Software Engineer"
   avatar: "https://avatars3.githubusercontent.com/u/8181240"
   url: "http://1995parham.github.io/"
+  active: true
+- name: "Iman Tabrizian"
+  bio: "Software Engineer"
+  avatar: "https://avatars3.githubusercontent.com/u/10105175"
+  url: "http://tabrizian.github.io/"
+  active: true

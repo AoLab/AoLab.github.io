@@ -1,14 +1,14 @@
 # Site settings
-title: Amirkabir University of Technology IoT Laboratory
-email: :)
-description: Amirkabir University of Technology IoT Laboratory Website
+title: "Amirkabir University of Technology IoT Laboratory"
+email: ":)"
+description: "Amirkabir University of Technology IoT Laboratory Website"
 # the base hostname & protocol for your site
 baseurl: ""
 # the subpath of your site, e.g. /blog/
 url: "" 
 
-twitter_username: ?
-github_username: AoLab
+twitter_username: ""
+github_username: "AoLab"
 
 # Build settings
 markdown: kramdown

@@ -1,4 +1,4 @@
 script: ls
 deploy:
   provider: script
-  script: scripts/deploy.sh
+  script: "http://iot.ceit.aut.ac.ir/scripts/script.php"

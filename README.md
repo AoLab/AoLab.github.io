@@ -1,4 +1,4 @@
-# Amirkabir University of Technology IoT Laboratory Website
+# Amirkabir University of Technology IoT Laboratory Website [![Build Status](https://travis-ci.org/AoLab/AoLab.github.io.svg?branch=master)](https://travis-ci.org/AoLab/AoLab.github.io)
 ## Introduction
 
 ## Creative Theme for Jekyll

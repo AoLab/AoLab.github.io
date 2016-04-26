@@ -1,3 +1,4 @@
 <?php
-exec_shell("./deploy.sh");
+exec_shell("../../deploy.sh");
+echo 'success';
 ?>

@@ -10,7 +10,8 @@
 
 	<div class="container grid-wrap col-set-one-quarter tablet-col-set-one-half phone-col-set-full member-box">
 		<div class="row">
-			{% for member in site.data.members and member.active %}
+			{% for member in site.data.members %}
+			{% if member.active == true %}
 			<div class="col-lg-3 col-md-6 text-center wow fadeIn">
 				<a href="{{ member.url }}" class="thumbnail bg-dark grid-col" target="_blank">
 
@@ -18,15 +19,14 @@
 
 					<h2>{{ member.name }}</h2>
 
-					<h5>
-						{{ member.bio }}
-					</h5>
+					<h5>{{ member.bio }}</h5>
 
 					<div class="clear"></div>
 					<br>
 
 				</a>
 			</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 	</div>

@@ -12,4 +12,9 @@
   bio: "Software Engineer - Developer"
   avatar: "https://avatars3.githubusercontent.com/u/10105175"
   url: "http://tabrizian.github.io/"
+  active: true
+- name: "Elahe Jalalpour"
+  bio: "Hardware Engineer - Developer"
+  avatar: "https://avatars3.githubusercontent.com/u/12486091"
+  url: "http://ceit.aut.ac.ir/~jalalpour"
   active: false

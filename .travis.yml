@@ -10,6 +10,7 @@ branches:
   only:
   - gh-pages     # test the gh-pages branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
+  - master       # test master branch ! this is a web repository !!
 
 env:
   global:

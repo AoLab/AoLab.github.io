@@ -1,0 +1,28 @@
+digraph architecture {
+	{
+		node [shape=plaintext, fontsize=16];
+		/* the time-line graph */
+		"Application" -> "Middleware" -> "Field";
+	}
+
+	{
+		rank="same";
+		"Middleware"; i1820;
+	}
+
+	{
+		rank="same";
+		agent1; agent2; agent3;
+	}
+
+	user -> i1820;
+	i1820 -> user;
+	agent1 -> i1820;
+	agent2 -> i1820;
+	agent3 -> i1820;
+
+	i1820 [shape=box, label="I1820\nServer", fillcolor="#FFB75E", style=filled];
+	agent1 [shape=circle, label="I1820\nAgent", fillcolor="#ED8F03", style=filled];
+	agent2 [shape=circle, label="I1820\nAgent", fillcolor="#ED8F03", style=filled];
+	agent3 [shape=circle, label="I1820\nAgent", fillcolor="#ED8F03", style=filled];
+}

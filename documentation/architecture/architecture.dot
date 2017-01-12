@@ -26,14 +26,16 @@ graph architecture {
 	}
 
 	user -- i1820;
-	i1820 -- agent1;
-	i1820 -- agent2;
-	i1820 -- agent3;
-	agent1 -- t11;
-	agent1 -- t12;
+	i1820 -- agent1 [label="MQTT"];
+	i1820 -- agent2 [label="MQTT"];
+	i1820 -- agent3 [label="MQTT"];
+	agent1 -- t11 [label="nRF Mesh"];
+	agent1 -- t12 [label="nRF Mesh"];
 
-	i1820 [shape=box, label="I1820\nServer", fillcolor="#FFB75E", style=filled];
-	agent1 [shape=circle, label="I1820\nAgent", fillcolor="#ED8F03", style=filled];
-	agent2 [shape=circle, label="I1820\nAgent", fillcolor="#ED8F03", style=filled];
-	agent3 [shape=circle, label="I1820\nAgent", fillcolor="#ED8F03", style=filled];
+	i1820 [shape=box, label="I1820\nServer", fillcolor="#f37735", style=filled];
+	agent1 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled];
+	agent2 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled];
+	agent3 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled];
+	t11 [shape=circle, label="Sensor", fillcolor="#00aedb", style=filled];
+	t12 [shape=circle, label="Actuator", fillcolor="#00aedb", style=filled];
 }

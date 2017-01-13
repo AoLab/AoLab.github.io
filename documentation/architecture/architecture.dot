@@ -32,8 +32,8 @@ graph architecture {
 	i1820 -- agent2 [label="MQTT", fontsize=8];
 	i1820 -- agent3 [label="MQTT", fontsize=8];
 	agent1 -- master [label="Serial", fontsize=8];
-	master -- t11 [label="nRF Mesh", fontsize=8];
-	master -- t12 [label="nRF Mesh", fontsize=8];
+	master -- ts [label="nRF Mesh", fontsize=8];
+	master -- ta [label="nRF Mesh", fontsize=8];
 
 	aps [shape=box, label="Application\nServer", fillcolor="#d11141", style=filled];
 	dan [shape=box, label="Data\nAnalyzer", fillcolor="#d11141", style=filled];
@@ -43,6 +43,6 @@ graph architecture {
 	agent2 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled, width=1];
 	agent3 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled, width=1];
 	master [shape=circle, label="Master", fillcolor="#00aedb", style=filled, fontsize=10, width=.8, fixedsize=true];
-	t11 [shape=circle, label="S", fillcolor="#00b159", style=filled, fontsize=10, width=.5, fixedsize=true];
-	t12 [shape=circle, label="A", fillcolor="#00b159", style=filled, fontsize=10, width=.5, fixedsize=true];
+	ts [shape=circle, label="S", fillcolor="#00b159", style=filled, fontsize=10, width=.5, fixedsize=true];
+	ta [shape=circle, label="A", fillcolor="#00b159", style=filled, fontsize=10, width=.5, fixedsize=true];
 }

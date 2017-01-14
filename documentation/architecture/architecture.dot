@@ -1,4 +1,8 @@
 graph architecture {
+	graph [fontname = "helvetica"];
+	node [fontname = "helvetica"];
+	edge [fontname = "helvetica", fontsize=8];
+
 	{
 		node [shape=plaintext, fontsize=16];
 		/* the layer-line graph */
@@ -7,7 +11,7 @@ graph architecture {
 
 	{
 		rank=same;
-		"Middleware"; i1820;
+		"Middleware"; i1820; influx;
 	}
 
 	{
@@ -28,17 +32,21 @@ graph architecture {
 	aps -- i1820;
 	dan -- i1820;
 	scs -- i1820;
-	i1820 -- agent1 [label="MQTT", fontsize=8];
-	i1820 -- agent2 [label="MQTT", fontsize=8];
-	i1820 -- agent3 [label="MQTT", fontsize=8];
-	agent1 -- master [label="Serial", fontsize=8];
-	master -- ts [label="nRF Mesh", fontsize=8];
-	master -- ta [label="nRF Mesh", fontsize=8];
+	i1820 -- influx [label="REST"]
+	i1820 -- broker [label="MQTT"];
+	broker -- agent1 [label="MQTT"];
+	broker -- agent2 [label="MQTT"];
+	broker -- agent3 [label="MQTT"];
+	agent1 -- master [label="Serial"];
+	master -- ts [label="nRF Mesh"];
+	master -- ta [label="nRF Mesh"];
 
 	aps [shape=box, label="Application\nServer", fillcolor="#d11141", style=filled];
 	dan [shape=box, label="Data\nAnalyzer", fillcolor="#d11141", style=filled];
 	scs [shape=box, label="Scenario\nServer", fillcolor="#d11141", style=filled];
-	i1820 [shape=diamond, label="I1820 Server", fillcolor="#f37735", style=filled, width=1.8];
+	i1820 [shape=diamond, label="I1820\nServer", fillcolor="#f37735", style=filled, width=1.2];
+	influx [shape=box, label="InfluxDB"];
+	broker [shape=ellipse, label="eMQTT Broker"];
 	agent1 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled, width=1];
 	agent2 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled, width=1];
 	agent3 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled, width=1];

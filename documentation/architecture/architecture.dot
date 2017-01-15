@@ -44,7 +44,7 @@ graph architecture {
 	dan [shape=box, label="Data\nAnalyzer", fillcolor="#d11141", style=filled];
 	scs [shape=box, label="Scenario\nServer", fillcolor="#d11141", style=filled];
 	i1820 [shape=diamond, label="I1820\nServer", fillcolor="#f37735", style=filled, width=1, fontcolor="#ffffff"];
-	influx [shape=box, label="InfluxDB"];
+	influx [shape=box, label="InfluxDB", fillcolor="#999dab", style=filled];
 	broker [shape=hexagon, label="EMQT\nBroker", fillcolor="#00ab6b", style=filled; fontcolor="#ffffff"];
 	agent1 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled, width=1];
 	agent2 [shape=circle, label="I1820\nAgent", fillcolor="#ffc425", style=filled, width=1];

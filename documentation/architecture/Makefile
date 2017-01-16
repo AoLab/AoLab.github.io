@@ -1,8 +1,8 @@
 all: architecture.png
 
 architecture.png: architecture.dot
-	dot architecture.dot -Tpng -Gsize=9,16 -Gdpi=200 -o architecture.png
+	dot architecture.dot -Tpng -Gsize=9,16 -Gdpi=200 -o architecture-Main.png
 
 .PHONY: clean
 clean:
-	rm architecture.png
+	rm architecture-Main.png

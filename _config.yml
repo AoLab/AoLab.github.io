@@ -4,6 +4,7 @@ email: ":)"
 description: "Amirkabir University of Technology IoT Laboratory Website"
 # the base hostname & protocol for your site
 baseurl: ""
+encoding: "utf-8"
 # the subpath of your site, e.g. /blog/
 url: ""
 

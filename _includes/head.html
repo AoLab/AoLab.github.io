@@ -19,6 +19,12 @@
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
+    {% for lang in site.data.config %}
+    {% if lang.lang == "fa" %}
+    <link rel="stylesheet" href="css/direction.css" type="text/css">
+    {% endif %}
+    {% endfor %}
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
 

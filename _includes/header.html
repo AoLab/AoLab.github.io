@@ -1,18 +1,20 @@
+{% for lang in site.data.config %}
 <header>
 	<div class="layer">
 	</div>
 	<div class="header-content">
 		<div class="header-content-inner">
-			<!-- <h1>Amirkabir University of Technology - IoT Laboratory</h1> -->	
+			<!-- <h1>Amirkabir University of Technology - IoT Laboratory</h1> -->
 			{% for post in site.data.data %}
-			{% if post.lang == "fa" %}
+			{% if post.lang == lang.lang %}
 			<h1>{{post.title}}</h1>
-			{% endif %}
-			{% endfor %}
-			
 			<small>@AoLab</small>
 			<hr>
-			<a href="#about" class="btn btn-primary btn-xl page-scroll">Start IoTing</a>
+			<a href="#about" class="btn btn-primary btn-xl page-scroll">{{post.start_button}}</a>
+			{% endif %}
+
 		</div>
+		{% endfor %}
 	</div>
 </header>
+{% endfor %}

@@ -11,12 +11,15 @@
 			<a class="navbar-brand page-scroll" href="#page-top">AoLab</a>
 		</div>
 
+		{% for post in site.data.data %}
+		{% if page.url == post.url %}
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-			<!--<ul class="nav navbar-nav navbar-right">-->
-				<!--<li>-->
-					<!--<a class="page-scroll" href="#about">About</a>-->
-				<!--</li>-->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+
+				<li>
+					<a class="page-scroll" href="{{post.chagelang}}">{{post.chagelang_title}}</a>
+				</li>
 				<!--<li>-->
 					<!--<a class="page-scroll" href="#components">Components</a>-->
 				<!--</li>-->
@@ -29,8 +32,10 @@
 				<!--<li>-->
 					<!--<a class="page-scroll" href="#contact">Contact</a>-->
 				<!--</li>-->
-			<!--</ul>-->
-		<!--</div>-->
+			</ul>
+		</div>
+		{% endif %}
+		{% endfor %}
 		<!-- /.navbar-collapse -->
 	</div>
 	<!-- /.container-fluid -->

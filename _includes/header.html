@@ -3,7 +3,13 @@
 	</div>
 	<div class="header-content">
 		<div class="header-content-inner">
-			<h1>Amirkabir University of Technology - IoT Laboratory</h1>
+			<!-- <h1>Amirkabir University of Technology - IoT Laboratory</h1> -->	
+			{% for post in site.data.data %}
+			{% if post.lang == page.lang %}
+			<h1>{{post.title}}</h1>
+			{% endif %}
+			{% endfor %}
+			
 			<small>@AoLab</small>
 			<hr>
 			<a href="#about" class="btn btn-primary btn-xl page-scroll">Start IoTing</a>

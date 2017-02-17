@@ -5,7 +5,7 @@
 		<div class="header-content-inner">
 			<!-- <h1>Amirkabir University of Technology - IoT Laboratory</h1> -->	
 			{% for post in site.data.data %}
-			{% if post.lang == "en" %}
+			{% if post.lang == page.lang %}
 			<h1>{{post.title}}</h1>
 			{% endif %}
 			{% endfor %}

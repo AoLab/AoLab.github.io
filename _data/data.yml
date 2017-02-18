@@ -21,9 +21,13 @@
   architecture_title: "AoLab IoT Architecture"
   architecture: We are 3 layer at AoLab and middleware is just one of them, many people and professors contribute
                 					in this projec and again we are just part of a great team :)
-
   chagelang: /
   chagelang_title: change language
+  projects_title: Our Projects
+  smartbuilding_title: Smart Building
+  smartmetering_title: Smart Metering
+  smartparking_title: Smart Parking
+  middleware_title: Amirkabir IOT Platform
 
 
 - title: "آزمایشگاه اینترنت اشیا دانشکده مهندسی کامپیوتر و فناوری اطلاعات دانشگاه صنعتی امیرکبیر"
@@ -46,4 +50,9 @@
                 علاوه بر این در لایه کاربرد سامانه سناریو ساز تعبیه شده که بسته به کاربرد می تواند خروجی های مختلف تولید  کرده و براساس مکانی که مورد بهره برداری قرار  می¬گیرد، قابل تغییر است. همچنین  در راستای شناسایی رفتارها برای هوشمند سازی، داده های دریافتی از حسگر‌ها در لایه کاربرد  تحلیل شده و  نتایج  آن در اختیار سامانه هوشمند سازی که بخشی از لایه کاربرد می باشد، قرار می گیرد.
   chagelang: /en
   chagelang_title: تغییر زبان
+  projects_title: پروژه های ما
+  smartbuilding_title: ساختمان هوشمند
+  smartmetering_title: اندازه گیری هوشمند
+  smartparking_title: پارکینگ هوشمند
+  middleware_title: پلتفرم اینترنت اشیا امیرکبیر
 

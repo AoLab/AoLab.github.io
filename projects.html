@@ -1,0 +1,10 @@
+---
+layout: page
+title: "Projects"
+---
+
+<div class="list-group">
+  {% for project in site.data.projects %}
+  <a href="{{project.link}}" class="list-group-item text-center">{{project.title}}</a>
+  {% endfor %}
+</div>

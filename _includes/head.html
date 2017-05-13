@@ -24,9 +24,6 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ "/css/clean-blog.css" | relative_url }}">
 
-	<!-- Adjust Colors -->
-  <link rel="stylesheet" href="{{ "/colorscheme.css" | relative_url }}">
-
   <!-- Pygments Github CSS -->
   <link rel="stylesheet" href="{{ "/css/syntax.css" | relative_url }}">
 
@@ -62,7 +59,7 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 	<!-- Custom Theme JavaScript -->
-	<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl | prepend: site.url }}"></script>
+	<script src="{{ '/js/clean-blog.min.js' | relative_url }}"></script>
 
 	{% include analytics.html %}
 

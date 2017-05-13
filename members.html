@@ -1,0 +1,33 @@
+---
+layout: page
+title: "Members"
+description: "Collaborators working on this project."
+header-img: "img/home-bg.jpg"
+---
+<hr>
+
+{% for member in site.data.members %}
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{ member.avatar }}" class="img-thumbnail">
+    </div>
+    <div class="col-md-8">
+      <h1>{{ member.name }}</h1>
+      <h2>{{ member.role }}</h2>
+
+      {% if member.github %}
+        <a href="{{member.url}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if member.url %}
+        <a href="{{member.url}}"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
+      {% endif %}
+
+      </br>
+
+      {% if member.bio %}
+        {{ member.bio }}
+      {% endif %}
+    </div>
+  </div>
+  <hr>
+{% endfor %}

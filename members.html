@@ -9,7 +9,7 @@ header-img: "img/home-bg.jpg"
 {% for member in site.data.members %}
   <div class="row">
     <div class="col-md-4">
-      <img src="{{ member.avatar }}" class="img-thumbnail">
+      <img src="{{ member.avatar }}" alt="{{member.name}} avatar" class="img-thumbnail">
     </div>
     <div class="col-md-8">
       <h1>{{ member.name }}</h1>

@@ -5,7 +5,7 @@ description: "Let's light the lamp"
 # Secondary Parameters
 header-img: img/header.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: img/logo.png
 
 # Tertiary Parameters
 github_username: Aolab

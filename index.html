@@ -16,7 +16,7 @@ layout: page
     <p class="post-meta" style="margin-bottom:5px">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 	<div class="notepad-index-post-tags" style="">
     {% for tag in post.tags %}
-      <a href="#">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}
+      <a>{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
 	</div>
 </div>

@@ -10,14 +10,17 @@
   role: "Developer @ Middleware"
   avatar: "https://avatars3.githubusercontent.com/u/8181240"
   url: "https://1995parham.github.io/"
-  github: "https://github.com/1995parham"
+  socials:
+    github: "https://github.com/1995parham"
+    instagram: "https://www.instagram.com/1995parham"
   timeline: "since June 2015"
 
 - name: "Iman Tabrizian"
   bio: "Software Engineer"
   role: "Developer @ Middleware"
   avatar: "https://avatars3.githubusercontent.com/u/10105175"
-  github: "https://github.com/tabrizian"
+  socials:
+    github: "https://github.com/tabrizian"
   url: ""
   timeline: "January 2016 - December 2016"
 
@@ -26,14 +29,16 @@
   role: "Developer @ Middleware"
   avatar: "https://avatars3.githubusercontent.com/u/12486091"
   url: "http://ceit.aut.ac.ir/~jalalpour"
-  github: "https://github.com/eljalalpour"
+  socials:
+    github: "https://github.com/eljalalpour"
   timeline: "June 2015 - January 2016"
 
 - name: "Mahtab Farrokh"
   bio: "Hardware Engineer"
   role: "Developer @ Middleware"
   avatar: "https://avatars3.githubusercontent.com/u/15922733"
-  github: "https://github.com/mahtabfarrokh"
+  socials:
+    github: "https://github.com/mahtabfarrokh"
   url: ""
   timeline: "since November 2016"
 
@@ -42,7 +47,8 @@
   role: "Developer @ Software"
   avatar: "https://avatars3.githubusercontent.com/u/9444863"
   url: ""
-  github: "https://github.com/samanfekri"
+  socials:
+    github: "https://github.com/samanfekri"
   timeline: "since December 2016"
 
 - name: "Sepehr Sabour"
@@ -50,7 +56,8 @@
   role: "Developer @ Middleware"
   avatar: "https://avatars3.githubusercontent.com/u/12782371"
   url: ""
-  github: "https://github.com/pesehr"
+  socials:
+    github: "https://github.com/pesehr"
   timeline: "since February 2017"
 
 - name: "Ali HeydariFard"

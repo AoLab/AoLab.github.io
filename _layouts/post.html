@@ -30,11 +30,11 @@ layout: default
       <h1>{{ member.name }}</h1>
       <h2>{{ member.role }}</h2>
 
-      {% if member.github %}
-        <a href="{{member.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
-      {% endif %}
+      {% for social in member.socials %}
+        <a href="{{social[1]}}"><i class="fa fa-{{social[0]}}" aria-hidden="true"></i></a>
+      {% endfor %}
       {% if member.url %}
-        <a href="{{member.url}}"><i class="fa fa-user-cirlce" aria-hidden="true"></i></a>
+        <a href="{{member.url}}"><i class="fa fa-user" aria-hidden="true"></i></a>
       {% endif %}
 
       <br>

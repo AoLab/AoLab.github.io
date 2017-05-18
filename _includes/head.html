@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
-	{% include ogmeta.html %}
+  {% include ogmeta.html %}
 
 	{% if site.altmetric == true %}
 
@@ -59,6 +59,9 @@
 	<!-- Custom Theme JavaScript -->
 	<script src="{{ '/js/clean-blog.min.js' | relative_url }}"></script>
 
-	{% include analytics.html %}
+  <!-- Icons -->
+  <link rel="shortcut icon" href="{{ '/img/logo.png' | relative_url }}">
+
+  {% include analytics.html %}
 
 </head>

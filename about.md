@@ -9,4 +9,4 @@ This group intend to create an Internet of Things Platform for Amirkabir Univers
 This labratory finally closed in **June 2017** becuase of many things. we moved all of our source codes
 into different repositories.
 
-**July 2015 - June 2017**
+**June 2015 - July 2017**

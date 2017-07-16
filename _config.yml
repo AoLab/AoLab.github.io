@@ -15,7 +15,7 @@ g-analytics: UA-75881392-1
 altmetric: true
 
 # Build settings
-gems:
+plugins:
   - jekyll-paginate
 markdown: kramdown
 highlighter: rouge

@@ -1,0 +1,14 @@
+---
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: html-proofer
+    image: ruby
+    environment:
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+      LANG: C.UTF-8
+    commands:
+      - gem install html-proofer
+      - htmlproofer --disable-external .

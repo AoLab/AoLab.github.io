@@ -1,4 +1,5 @@
-- link: https://1995parham.github.io/IoT101/#/
-  title: IoT 101
+---
+- link: https://aolab.github.io/Platform101/
+  title: Platform101 (An introduction to IoT Platforms)
 - link: https://i1820.github.io
-  title: I1820
+  title: I1820 (I1820, IoT Platform that can be used with LoRa, Zigbee and ...)

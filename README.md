@@ -1,6 +1,6 @@
 # Amirkabir University of Technology IoT Laboratory Website
 
-[![Build Status](https://travis-ci.org/AoLab/AoLab.github.io.svg?branch=master)](https://travis-ci.org/AoLab/AoLab.github.io)
+[![Drone (cloud)](https://img.shields.io/drone/build/aolab/aolab.github.io.svg?style=flat-square)](https://cloud.drone.io/aolab/aolab.github.io)
 
 ## Introduction
 

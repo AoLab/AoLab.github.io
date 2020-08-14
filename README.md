@@ -1,6 +1,6 @@
 # Amirkabir University of Technology IoT Laboratory Website
 
-[![Drone (cloud)](https://img.shields.io/drone/build/aolab/aolab.github.io.svg?style=flat-square)](https://cloud.drone.io/aolab/aolab.github.io)
+[![Drone (cloud)](https://img.shields.io/drone/build/AoLab/AoLab.github.io.svg?style=flat-square&logo=drone)](https://cloud.drone.io/AoLab/AoLab.github.io)
 
 ## Introduction
 

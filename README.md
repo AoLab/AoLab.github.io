@@ -4,8 +4,9 @@
 
 ## Introduction
 
-This is a repository for our lab website and documentations.
-For creating the documentation we used [this](https://www.ibm.com/developerworks/aix/library/au-aix-graphviz/) tutorial as a refrence for using graphviz.
+Computer Engineering Department of the Amirkabir University of Technology decides to create an IoT Laboratory for exploring new ideas and technology in 2015.
+Prof Sabaei, Bakhshi, and Rasti were the core team of this awesome center. Other professors also contributed to the progress of this laboratory.
+In 2017 after 3 years of struggling we decided to shut down this laboratory. Here is the last version of the website.
 
 ## Creative Theme for Jekyll
 

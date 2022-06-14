@@ -1,7 +1,5 @@
 # Amirkabir University of Technology IoT Laboratory Website
 
-[![Drone (cloud)](https://img.shields.io/drone/build/AoLab/AoLab.github.io.svg?style=flat-square&logo=drone)](https://cloud.drone.io/AoLab/AoLab.github.io)
-
 ## Introduction
 
 Computer Engineering Department of the Amirkabir University of Technology decides to create an IoT Laboratory for exploring new ideas and technology in 2015.
